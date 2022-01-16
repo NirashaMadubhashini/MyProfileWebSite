@@ -12,6 +12,8 @@ ooowebhost = https://nirashamadubhashini.000webhostapp.com/
 
 github = https://github.com/NirashaMadubhashini
 
+WebPages = https://nirashamadubhashini.github.io/OnePageWebSite/
+
 ##Screenshots of my website
 
 ##Homepage
