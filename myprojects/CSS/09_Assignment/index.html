@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment-09 Animation</title>
+    <style>
+        body {
+            background-color: black;
+            overflow: hidden;
+        }
+
+        div {
+            margin: 200px auto;
+        }
+
+        .drop:before {
+            position: absolute;
+            height: 230px;
+            width: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 30px solid ;
+
+        }
+
+        .wave {
+            position: relative;
+            opacity: 0;
+            top: 0;
+            width: 0;
+            height: 0;
+            border: red 5px solid;
+            border-radius: 100%;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            animation-name: ripple;
+            animation-delay: 2s;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        .wave:after {
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+            border: red 5px solid;
+            border-radius: 100%;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            animation-name: ripple-2;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes ripple {
+            from {
+                opacity: 1;
+
+            }
+            to {
+                width: 400px;
+                height: 300px;
+                border-width: 3px;
+                top: -100px;
+                opacity: 0;
+            }
+        }
+
+        @keyframes ripple-2 {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                width: 300px;
+                height: 200px;
+                border-width: 3px;
+                top: 100px;
+                left: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="drop"></div>
+<div class="wave"></div>
+</body>
+</html>
