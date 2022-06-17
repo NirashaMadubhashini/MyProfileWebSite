@@ -8,8 +8,6 @@ Wire frame = https://wireframe.cc/u7da7I
 
 Mock up= https://www.figma.com/file/OlrvgmR1CiX6Fwo5AIHT1V/Untitled?node-id=0%3A1
 
-ooowebhost = https://nirashamadubhashini.000webhostapp.com/
-
 github = https://github.com/NirashaMadubhashini
 
 WebPages = https://nirashamadubhashini.github.io/OnePageWebSite/
